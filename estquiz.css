@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, #5b1e9f, #4d27b6);
+    gap: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 350px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.contador {
+    text-align: right;
+    font-weight: bold;
+}
+
+.respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #ffcc00, #ff9900);
+    color: #222;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #ffdd33, #ffaa33);
+}
+
+.final {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.btn-reiniciar {
+    text-align: center;
+}

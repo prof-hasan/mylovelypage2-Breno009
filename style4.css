@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+header {
+    background-color: #0F1419;
+    background-image: url(fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+}
+
+.lista {
+    margin: 20px auto;
+    background-color: rgb(18, 18, 105);
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background: none;
+}
+
+header h1 {
+    margin: 0;
+    color: #e0633d;
+}
+
+header h2 {
+    margin: 0;
+    color: lightcyan
+}
+
+h2 {
+    font-size: 15px;
+}
+
+footer {
+    background-color: #0F1419;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Asimovian", sans-serif;
+    background-image: url(fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    ;
+    flex-direction: column;
+    font-family: "Bungee Spice", sans-serif;
+}
+
+
+#customizar {
+    font-family: "Birthstone", cursive;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    #customizar {
+        font-size: 22px;
+    }
+
+    #titulo {
+        font-size: 28px;
+    }
+}
+
+ul {
+    font-family: "Permanent Marker", cursive;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #00d4ff;
+}
+
+a:active {
+    color: #ff3b3b;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    font-family: "Asimovian", sans-serif;
+}
+
+#button:hover {
+    background-color: white;
+    color: black;
+    font-family: "Asimovian", sans-serif;
+}
+
+dt {
+    font-family: "Asimovian", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#Direitos {
+    text-align: right;
+}
+
+h5 {
+    padding: 20px;
+}
+
+dl {
+    margin-bottom: 15px;
+}
+
+dt {
+    margin-top: 15px;
+}
+
+.quizz {
+    float: right;
+}
+
+.iframe {
+    font-family: "Asimovian", sans-serif;
+}
+
+.iframe img {
+    margin-bottom: 8px;
+    margin-top: 5px;
+    width: 600px;
+    height: 300px;
+}
